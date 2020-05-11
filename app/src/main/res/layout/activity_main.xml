@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:layout_width="match_parent"
+        app:auto_cycle="true"
+        app:delay="0"
+        android:id="@+id/slider"
+        app:period="1000"
+        app:error_image="@drawable/bg_grey"
+        app:placeholder="@drawable/bg_grey"
+        app:corner_radius="20"
+        android:layout_height="200dp"/>
+
+
+
+
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_marginTop="205dp"
+         android:gravity="center"
+         android:background="@drawable/kl"
+         android:padding="10dp"
+         android:orientation="vertical"
+         >
+
+         <ScrollView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+
+
+
+
+             <LinearLayout
+
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical"
+
+                 >
+
+
+
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:orientation="horizontal"
+                     android:gravity="center"
+                     android:clipToPadding="false"
+
+                     android:layout_height="wrap_content">
+                     <androidx.cardview.widget.CardView
+                         android:layout_width="160dp"
+                         android:layout_height="350dp"
+                         android:layout_margin="10dp"
+                         android:id="@+id/cofffeeID"
+
+                         android:clickable="true"
+                         >
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                              android:background="#ff1744"
+                             android:orientation="vertical"
+                             android:gravity="center">
+                             <ImageView
+                                 android:layout_width="64dp"
+
+                                 android:layout_height="64dp"
+                                 android:background="@drawable/circlebackgroundpink"
+                                 android:src="@drawable/coffe"
+                                 android:padding="10dp"/>
+
+                             <View
+                                 android:layout_width="match_parent"
+                                 android:layout_height="5dp"
+                                 android:background="#000"
+                                 android:layout_centerVertical="true"
+                                 android:layout_toRightOf="@+id/tv_textview"
+                                 android:layout_margin="3dp"
+                                 />
+                             <TextView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                  android:textColor="#020202"
+                                 android:textSize="25sp"
+                                 android:layout_marginLeft="10dp"
+                                 android:layout_marginTop="10dp"
+                                 android:text="Coffee And Tea"/>
+
+                         </LinearLayout>
+                     </androidx.cardview.widget.CardView>
+
+                     <androidx.cardview.widget.CardView
+                         android:layout_width="160dp"
+                         android:layout_height="350dp"
+                         android:id="@+id/pizzaID"
+                         android:layout_margin="10dp"
+                         >
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:background="#CDDC39"
+                             android:orientation="vertical"
+
+                             android:gravity="center">
+                             <ImageView
+                                 android:layout_width="64dp"
+                                 android:layout_height="64dp"
+                                 android:background="@drawable/circlebackgroundpink"
+                                 android:src="@drawable/pizza"
+                                 android:padding="10dp"/>
+
+                             <View
+                                 android:layout_width="match_parent"
+                                 android:layout_height="5dp"
+                                 android:background="#000"
+                                 android:layout_centerVertical="true"
+                                 android:layout_toRightOf="@+id/tv_textview"
+                                 android:layout_margin="3dp"
+                                 />
+                             <TextView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:textColor="#020202"
+                                 android:layout_marginLeft="10dp"
+                                 android:textSize="25sp"
+                                 android:layout_marginTop="10dp"
+                                 android:text="Pizza And Sandwich"/>
+
+                         </LinearLayout>
+                     </androidx.cardview.widget.CardView>
+
+                 </LinearLayout>
+
+
+
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:orientation="vertical"
+                     android:gravity="center"
+                     android:clipToPadding="false"
+                     android:layout_height="wrap_content">
+
+
+                     <androidx.cardview.widget.CardView
+                         android:layout_width="350dp"
+                         android:layout_height="150dp"
+                         android:layout_margin="10dp"
+                         android:id="@+id/somefoodID"
+                         >
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:background="#8c9eff"
+                             android:orientation="vertical"
+                             android:gravity="center">
+                             <ImageView
+                                 android:layout_width="64dp"
+                                 android:layout_height="64dp"
+                                 android:background="@drawable/circlebackgroundpink"
+                                 app:srcCompat="@drawable/drink"
+                                 android:padding="10dp"/>
+                             <View
+                                 android:layout_width="match_parent"
+                                 android:layout_height="5dp"
+                                 android:background="#000"
+                                 android:layout_centerVertical="true"
+                                 android:layout_toRightOf="@+id/tv_textview"
+                                 android:layout_margin="3dp"
+                                 />
+                             <TextView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:textColor="#020202"
+                                 android:textSize="25sp"
+                                 android:layout_marginTop="10dp"
+                                 android:text=" Some Food And Drink"/>
+
+
+
+
+                         </LinearLayout>
+                     </androidx.cardview.widget.CardView>
+
+                     <androidx.cardview.widget.CardView
+                         android:layout_width="350dp"
+                         android:layout_height="150dp"
+                         android:layout_margin="10dp"
+                         android:id="@+id/snackID"
+                         >
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:background="#a1887f"
+                             android:orientation="vertical"
+                             android:gravity="center">
+                             <ImageView
+                                 android:layout_width="64dp"
+                                 android:layout_height="64dp"
+                                 android:background="@drawable/circlebackgroundpink"
+                                 app:srcCompat="@drawable/fo"
+                                 android:padding="10dp"/>
+                             <View
+                                 android:layout_width="match_parent"
+                                 android:layout_height="5dp"
+                                 android:background="#000"
+                                 android:layout_centerVertical="true"
+                                 android:layout_toRightOf="@+id/tv_textview"
+                                 android:layout_margin="3dp"
+                                 />
+                             <TextView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:textColor="#020202"
+                                 android:textSize="25sp"
+                                 android:layout_marginTop="10dp"
+                                 android:text="   American Snack"/>
+
+
+
+
+                         </LinearLayout>
+                     </androidx.cardview.widget.CardView>
+
+
+
+
+                 </LinearLayout>
+
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:orientation="horizontal"
+                     android:gravity="center"
+                     android:clipToPadding="false"
+                     android:layout_height="wrap_content">
+
+
+
+
+
+
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:orientation="horizontal"
+                         android:gravity="center"
+                         android:clipToPadding="false"
+
+                         android:layout_height="wrap_content">
+                         <androidx.cardview.widget.CardView
+                             android:layout_width="160dp"
+                             android:layout_height="190dp"
+                             android:layout_margin="10dp"
+                             android:id="@+id/iceID"
+
+                             android:clickable="true"
+                             >
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"
+                                 android:orientation="vertical"
+                                 android:gravity="center">
+                                 <ImageView
+                                     android:layout_width="64dp"
+                                     android:layout_height="64dp"
+                                     android:background="@drawable/circlebackgroundpink"
+                                     android:src="@drawable/stick"
+
+                                     android:padding="10dp"/>
+
+                                 <View
+                                     android:layout_width="match_parent"
+                                     android:layout_height="5dp"
+                                     android:background="#000"
+                                     android:layout_centerVertical="true"
+                                     android:layout_toRightOf="@+id/tv_textview"
+                                     android:layout_margin="3dp"
+                                     />
+
+                                 <TextView
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"
+                                     android:textColor="#020202"
+                                     android:textSize="25sp"
+                                     android:layout_marginTop="10dp"
+                                     android:text="Ice Cream"/>
+
+                             </LinearLayout>
+                         </androidx.cardview.widget.CardView>
+
+                         <androidx.cardview.widget.CardView
+                             android:layout_width="160dp"
+                             android:layout_height="190dp"
+                             android:id="@+id/DietplanID"
+                             android:layout_margin="10dp"
+                             >
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"
+                                 android:background="#d7a238 "
+                                 android:orientation="vertical"
+
+                                 android:gravity="center">
+                                 <ImageView
+                                     android:layout_width="64dp"
+                                     android:layout_height="64dp"
+                                     android:layout_marginLeft="5dp"
+                                     android:background="@drawable/circlebackgroundpink"
+                                     android:src="@drawable/sport"
+                                     android:padding="10dp"/>
+
+                                 <View
+                                     android:layout_width="match_parent"
+                                     android:layout_height="5dp"
+                                     android:background="#000"
+                                     android:layout_centerVertical="true"
+                                     android:layout_toRightOf="@+id/tv_textview"
+                                     android:layout_margin="3dp"
+                                     />
+
+                                 <TextView
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"
+                                     android:textColor="#020202"
+                                     android:textSize="25sp"
+                                     android:layout_marginLeft="10dp"
+                                     android:layout_marginTop="10dp"
+                                     android:text="Diet tips"/>
+
+                             </LinearLayout>
+                         </androidx.cardview.widget.CardView>
+
+                     </LinearLayout>
+
+
+
+                 </LinearLayout>
+
+
+
+
+             </LinearLayout>
+
+
+
+         </ScrollView>
+
+
+
+
+
+
+     </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

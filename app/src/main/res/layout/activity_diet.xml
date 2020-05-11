@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".DietActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:fontFamily="@font/gotham"
+            android:textColor="#050505"
+            android:text="@string/first"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tv_textview"
+            android:layout_margin="3dp"
+            />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ddd"/>
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/styel_background"
+            android:fontFamily="@font/calibri"
+            android:textColor="#070707"
+            android:text="Saturday :"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+             android:textSize="20sp"
+            android:fontFamily="@font/gotham"
+            android:textColor="#000000"
+            android:text="@string/tex2"/>
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/styel_background"
+            android:fontFamily="@font/calibri"
+            android:textColor="#000000"
+            android:text="Sunday :"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/index"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="@font/gotham"
+            android:textColor="#000000"
+            android:text="@string/tex3"/>
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/styel_background"
+            android:fontFamily="@font/calibri"
+            android:textColor="#000000"
+            android:text="Monday :"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gggg"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="@font/gotham"
+            android:textColor="#000000"
+            android:text="@string/tex4"/>
+
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/styel_background"
+            android:fontFamily="@font/calibri"
+            android:textColor="#000000"
+            android:text="Tuesday :"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="@font/gotham"
+            android:textColor="#000000"
+            android:text="@string/tex5"/>
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/styel_background"
+            android:fontFamily="@font/calibri"
+            android:textColor="#000000"
+            android:text="Wednesday :"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ol"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="@font/gotham"
+            android:textColor="#000000"
+            android:text="@string/tex6"/>
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/styel_background"
+            android:fontFamily="@font/calibri"
+            android:textColor="#000000"
+            android:text="Thursday :"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vo"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="@font/gotham"
+            android:textColor="#000000"
+            android:text="@string/tex7"/>
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/styel_background"
+            android:fontFamily="@font/calibri"
+            android:textColor="#000000"
+
+            android:text="Friday :"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/egg"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="@font/gotham"
+            android:textColor="#000000"
+            android:text="@string/tex9"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:fontFamily="@font/gotham"
+            android:textColor="#FF0707"
+            android:text="The End"/>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>

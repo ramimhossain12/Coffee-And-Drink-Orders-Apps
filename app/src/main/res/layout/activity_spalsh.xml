@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="#000000"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:id="@+id/text1ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="Fatest Delivery"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:layout_marginBottom="130dp"/>
+
+    <ImageView
+        android:id="@+id/imageID"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:visibility="invisible"
+        android:src="@drawable/db"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/text2ID"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="At your door step"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="130dp"/>
+
+
+</FrameLayout>
